@@ -15,6 +15,16 @@ a {
   color: #020202;
 }
 
+i {
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
 /* header */
 .top-bar {
   min-height: 150px;
@@ -23,7 +33,7 @@ a {
   justify-content: space-around;
   align-items: center;
   /* bordar somente para visualizar o fim do container */
-  border-bottom: 3px solid tomato;
+  /* border-bottom: 3px solid tomato; */
 }
 
 .top-bar .logo {
@@ -75,3 +85,58 @@ a {
   letter-spacing: 1.2px;
   font-weight: bold;
  }
+
+ /* NAVBAR */
+
+ .navbar {
+   background: #284390;
+   padding: 0 8%;
+ }
+ .navbar .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+.navbar ul {
+   list-style: none;
+   display: flex;
+ }
+
+
+.navbar ul li a {
+   display: block;
+   font-size: 1.1rem;
+   color: #fff;
+   letter-spacing: 1.5px;
+   padding: 20px;
+   text-transform: uppercase;
+ }
+.navbar ul li:hover {
+   background: #87a926;
+ }
+
+ /* reponsive menu icon */
+.navbar .burguer {
+  cursor: pointer;
+  display: none;
+  padding: 20px;
+}
+
+.navbar .burguer div {
+  height: 3px;
+  width: 25px;
+  background: #f4f4f4;
+  margin: 5px;
+}
+
+.navbar .social i {
+   font-size: 1.4rem;
+   color: #fff;
+   cursor: pointer;
+ }
+
+.navbar .social i:hover {
+   color: #87a926; 
+ }
+

@@ -7,3 +7,12 @@
 .top-bar .office-hours {
   display: none;
 }
+
+/* navbar */
+.navbar ul {
+  display: none;
+}
+
+.navbar .burguer {
+  display: block;
+}
