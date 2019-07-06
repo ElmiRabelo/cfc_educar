@@ -1,0 +1,9 @@
+
+/* topbar */
+.top-bar .logo  h2 {
+  font-size: 2rem;
+}
+
+.top-bar .office-hours {
+  display: none;
+}
