@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
-/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
 /* RESET */
 * {
   margin: 0;
@@ -13,4 +12,66 @@ body {
 
 a {
   text-decoration: none;
+  color: #020202;
 }
+
+/* header */
+.top-bar {
+  max-height: 150px;
+  background: linear-gradient(180deg, rgba(194,203,210, 0.33), #fff);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* bordar somente para visualizar o fim do container */
+  border-bottom: 3px solid tomato;
+}
+
+.top-bar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.top-bar .logo img {
+  display: inline-block;
+  max-width: 69px;
+  max-height: 69px;
+  margin-right: 10px;
+}
+.top-bar .logo h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #020202;
+  font-weight: 800;
+}
+
+.top-bar .contact-phone {
+  display: flex;
+  align-items: center;
+}
+.top-bar .contact-phone i,
+.top-bar .office-hours i {
+  font-size: 1.7rem;
+  display: inline-block;
+  padding: 10px 10px;
+  color: #87a926;
+}
+.top-bar .office-hours i { font-size: 2.2rem; }
+
+.top-bar .contact-phone a {
+  font-weight: bold;
+  color: #1a1a19;
+  letter-spacing: 1.2px;
+}
+
+.top-bar .office-hours {
+  display: flex;
+  align-items: center;
+}
+.top-bar .office-hours span{ 
+  display: block;
+  color: #1a1a19;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+ }
