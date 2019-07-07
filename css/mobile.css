@@ -17,14 +17,13 @@ body {
   position: absolute;
   padding: 1rem;
   right: 0;
-  top: 210px;
+  top: 218px;
   height: 50vh;
   width: 50%;
   background: #233870;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -1;
   transform: translateX(100%);
   transition: transform 0.5s ease;
   display: none;
