@@ -47,3 +47,23 @@ body {
 .navbar .burguer {
   display: block;
 }
+
+
+/* HERO */
+
+.hero .hero-content {
+  width: 100%;
+  align-items: center;
+}
+
+.hero .hero-content .hero-title {
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero .hero-content .lead {
+  line-height: 1;
+  padding: 0 1rem;
+  text-align: center;
+}
