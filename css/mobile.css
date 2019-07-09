@@ -65,10 +65,21 @@ body {
   font-size: 4.8rem;
 }
 
+/* features */
+.features-item {
+  font-size: 1.6rem;
+}
+.features-item i{
+  font-size: 5rem;
+}
 
 @media screen and (max-width: 540px ) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
   }
 
   .top-bar .logo img {
@@ -90,4 +101,19 @@ body {
   .hero .hero-content .price-value {
     font-size: 4rem;
   }
+
+  .features {
+    flex-shrink: 2;
+    height: 100%;
+  }
+  .features-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .features-item {
+    margin: 1rem 0;
+  }
+
+
 }
