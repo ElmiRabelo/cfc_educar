@@ -52,6 +52,7 @@ i {
   border-radius: .3rem;
   cursor: pointer;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  transition: all .2s;
 }
 
 .btn-price:hover {
