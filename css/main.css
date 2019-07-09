@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900|Roboto:400,700&display=swap');
-/* RESET */
-* {
+/* RESET AND INITIAL CONFIGURATION */
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,34 +36,38 @@ i {
 
 /* UTILITY */
 .container {
-  max-width: 1100px;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
 .btn {
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+  font-size: 1.8rem;
+  letter-spacing: .1rem;
   color: #fff;
   background: #284390;
-  padding: .9rem;
-  margin: 5px 0;
+  padding: 1.2rem;
+  margin: .5rem 0;
   border: none;
   outline: none;
-  border-radius: 3px;
+  border-radius: .3rem;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
-.btn:hover {
+.btn-price:hover {
   background: #46a926;
-  color: #1a1a19;
-  transform: translateY(-2px);
-  box-shadow: 3px 0 12px rgba(0, 0, 0, 0.6);
+  transform: translateY(-0.4rem);
+  box-shadow: 0 .3rem 2rem rgba(0, 0, 0, 0.8);
+}
+
+.btn-price:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 .1rem .7rem rgba(0, 0, 0, 0.8);
 }
 
 /* header */
 .top-bar {
-  min-height: 150px;
+  min-height: 15rem;
   background: linear-gradient(180deg, rgba(194,203,210, 0.33), #fff);
   display: flex;
   justify-content: space-around;
@@ -68,17 +80,17 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .top-bar .logo img {
   display: inline-block;
-  max-width: 72px;
-  min-height: 72px;
-  margin-right: 10px;
+  max-width: 7.2rem;
+  min-height: 7.2rem;
+  margin-right: 1rem;
 }
 .top-bar .logo h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #020202;
   font-weight: 800;
 }
@@ -89,17 +101,17 @@ i {
 }
 .top-bar .contact-phone i,
 .top-bar .office-hours i {
-  font-size: 1.7rem;
+  font-size: 3rem;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 1rem;
   color: #87a926;
 }
-.top-bar .office-hours i { font-size: 2.2rem; }
+.top-bar .office-hours i { font-size: 3.6rem; }
 
 .top-bar .contact-phone a {
   font-weight: bold;
   color: #1a1a19;
-  letter-spacing: 1.2px;
+  letter-spacing: .12rem;
 }
 
 .top-bar .office-hours {
@@ -109,7 +121,7 @@ i {
 .top-bar .office-hours span{ 
   display: block;
   color: #1a1a19;
-  letter-spacing: 1.2px;
+  letter-spacing: .12rem;
   font-weight: bold;
  }
 
@@ -134,8 +146,8 @@ i {
 .navbar ul li a {
    display: block;
    color: #fff;
-   letter-spacing: 1.5px;
-   padding: 20px;
+   letter-spacing: .15rem;
+   padding: 2rem;
    text-transform: uppercase;
  }
 .navbar ul li:hover {
@@ -146,18 +158,18 @@ i {
 .navbar .burguer {
   cursor: pointer;
   display: none;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .navbar .burguer div {
-  height: 3px;
-  width: 25px;
+  height: .3rem;
+  width: 2.5rem;
   background: #f4f4f4;
-  margin: 5px;
+  margin: .5rem;
 }
 
 .navbar .social i {
-   font-size: 1.4rem;
+   font-size: 2.4rem;
    color: #fff;
    cursor: pointer;
  }
@@ -180,6 +192,7 @@ i {
   height: 100%;
 }
 .hero .hero-content {
+  padding: 0 1.2rem;
   width: 50%;
   height: 100%;
   display: flex;
@@ -189,35 +202,35 @@ i {
 }
 
 .hero .hero-content .hero-title {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 900;
-  letter-spacing: 1.8px;
+  letter-spacing: .18rem;
   line-height: 1.1;
   color: #fff;
-  text-shadow: 1px 0 5px rgba(0, 0, 0, 0.4); 
+  text-shadow: .1rem 0 .5rem rgba(0, 0, 0, 0.4); 
 }
 
 .hero .hero-content .lead {
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   color: #f5f5f5;
-  letter-spacing: 1.2px;
-  margin-bottom: 2rem;
+  letter-spacing: .12rem;
+  margin-bottom: 3.2rem;
 }
 
 .hero .hero-content .price-title {
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   color: #f6f6f6;
-  letter-spacing: 1.6px;
+  letter-spacing: .16rem;
   font-weight: 700;
 }
 
 .hero .hero-content .price-value {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   color: #46a926;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
   font-weight: 800;
-  text-shadow: 1px 0 5px rgba(0, 0, 0, 0.4); 
+  text-shadow: .1rem 0 .5rem rgba(0, 0, 0, 0.4); 
   margin: 0.6rem 0;
 }
 
