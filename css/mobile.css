@@ -1,9 +1,18 @@
+/************* UTILITY *************/
+.heading-secondary {
+  font-size: 3rem;
+}
 
+.heading-primary {
+  font-size: 3.7rem;
+}
+
+/************* topbar *************/
 .top-bar .office-hours {
   display: none;
 }
 
-/* navbar */
+/************* navbar *************/
 body {
   overflow-x: hidden;
 }
@@ -43,7 +52,7 @@ body {
 }
 
 
-/* HERO */
+/************* HERO *************/
 
 .hero .hero-content {
   width: 100%;
@@ -65,7 +74,8 @@ body {
   font-size: 4.8rem;
 }
 
-/* features */
+/************ features ************/
+
 .features-item {
   font-size: 1.6rem;
 }
@@ -73,14 +83,35 @@ body {
   font-size: 5rem;
 }
 
+/************* TESTIMONIALS *************/
+.testimonials {
+  height: 100%;
+  padding: 4rem 3rem;
+}
+
+.testimonials .testimonials-boxes {
+  flex-direction: column;
+}
+
+
+
+/************* Under 540px *************/
 @media screen and (max-width: 540px ) {
+
   body {
     overflow-x: hidden;
   }
 
+  /************* utility *************/
   .heading-secondary {
     font-size: 2.4rem;
   }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  /************* topbar *************/
 
   .top-bar .logo img {
     display: none;
@@ -94,6 +125,8 @@ body {
     font-size: 2rem;
   }
 
+  /************* HERO *************/
+
   .hero .hero-content .hero-title {
     font-size: 3.5rem;
   }
@@ -101,6 +134,8 @@ body {
   .hero .hero-content .price-value {
     font-size: 4rem;
   }
+
+  /************* features *************/
 
   .features {
     flex-shrink: 2;
@@ -115,5 +150,5 @@ body {
     margin: 1rem 0;
   }
 
-
+  /************* testimonials *************/
 }
