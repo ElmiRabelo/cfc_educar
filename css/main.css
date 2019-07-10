@@ -246,8 +246,8 @@ i {
 
 /* features */
 .features {
-  height: 50vh;
-  padding: 2rem 0;
+  height: 60vh;
+  padding: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,7 +257,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .features-item {
