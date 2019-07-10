@@ -95,7 +95,31 @@ body {
   flex-direction: column;
 }
 
+/******************************************* localization *******************************************/
+.localization {
+  flex-direction: column;
+  height: 100%;
+  padding: 4rem 1rem;
+}
 
+.localization .localization-map {
+  width: 100%;
+  height: 30rem;
+  margin: 2rem 0;
+}
+
+.localization .localization-info {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.localization .localization-info .localization-title {
+  font-size: 3rem;
+}
+.localization .localization-info .localization-item {
+  width: 100%;
+  text-align: center;
+}
 
 /************* Under 540px *************/
 @media screen and (max-width: 540px ) {

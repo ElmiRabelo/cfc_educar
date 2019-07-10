@@ -58,6 +58,15 @@ i {
   letter-spacing: .2rem;
   text-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
 }
+
+.sub-heading {
+  font-size: 2rem;
+  letter-spacing: .15rem;
+  color: #46a926;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 .btn {
   display: inline-block;
   font-size: 1.8rem;
@@ -363,4 +372,57 @@ i {
   letter-spacing: .15rem;
   color: #fff;
   align-self: center;
+}
+
+/******************************************* localization *******************************************/
+.localization {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 4rem;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/testimonials-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.localization .localization-map {
+  width: 50%;
+  height: 100%;
+  margin-right: 5rem;
+  flex-shrink: 2;
+}
+
+.localization .localization-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.localization .localization-info .localization-title {
+  font-size: 3.7rem;
+  width: 100%;
+
+}
+
+
+.localization .localization-info .localization-item {
+  width: 40%;
+  padding: 2rem 0;
+  margin-right: 3rem;
+}
+
+.localization .localization-info .localization-item-full {
+  width: 100%;
+  flex-grow: 2;
+}
+.localization .localization-info .localization-item p {
+  font-size: 1.6rem;
+  color: #f6f6f6;
+  letter-spacing: .1rem;
+  text-shadow: 0 0 .2rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
