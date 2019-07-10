@@ -321,6 +321,18 @@ i {
   border-radius: .5rem;
   margin: 2rem 1rem;
   text-align: center;
+  position: relative;
+}
+
+.testimonials .testimonial-item .testimonial-box::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 1rem;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #000;
 }
 
 .testimonials .testimonial-item .testimonial-author {
