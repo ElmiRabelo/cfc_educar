@@ -34,7 +34,7 @@ i {
   outline: none;
 }
 
-/* UTILITY */
+/******************************************* UTILITY *******************************************/
 .container {
   max-width: 110rem;
   margin: 0 auto;
@@ -59,6 +59,7 @@ i {
   text-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
 }
 .btn {
+  display: inline-block;
   font-size: 1.8rem;
   letter-spacing: .1rem;
   color: #fff;
@@ -73,18 +74,18 @@ i {
   transition: all .2s;
 }
 
-.btn-price:hover {
+.btn:hover {
   background: #46a926;
   transform: translateY(-0.4rem);
-  box-shadow: 0 .3rem 2rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.8);
 }
 
-.btn-price:active {
+.btn:active {
   transform: translateY(-0.1rem);
   box-shadow: 0 .1rem .7rem rgba(0, 0, 0, 0.8);
 }
 
-/* header */
+/******************************************* header *******************************************/
 .top-bar {
   min-height: 15rem;
   background: linear-gradient(180deg, rgba(194,203,210, 0.33), #fff);
@@ -144,7 +145,7 @@ i {
   font-weight: bold;
  }
 
- /* NAVBAR */
+ /******************************************* NAVBAR *******************************************/
 
  .navbar {
    background: #284390;
@@ -173,7 +174,8 @@ i {
    background: #87a926;
  }
 
- /* reponsive menu icon */
+ /******************************************* reponsive menu icon *******************************************/
+
 .navbar .burguer {
   cursor: pointer;
   display: none;
@@ -197,7 +199,7 @@ i {
    color: #87a926; 
  }
 
- /* HERO */
+ /******************************************* HERO *******************************************/
 
 .hero {
   width: 100%;
@@ -244,23 +246,38 @@ i {
   margin: 0.6rem 0;
 }
 
-/* features */
-.features {
+/******************************************* features and services ******************************************/
+
+.features,
+.services {
   height: 60vh;
   padding: 3rem 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.features-box {
+.features-box,
+.services-box {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
 }
 
-.features-item {
+.services-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.services-title {
+  padding-top: 2rem;
+}
+
+.features-item,
+.services-item {
   margin: 0 1rem;
   font-size: 1.8rem;
   font-weight: bold;
@@ -269,19 +286,22 @@ i {
 }
 
 
-.features-item i {
+.features-item i,
+.services-item i {
   display: block;
   font-size: 7rem;
   padding-bottom: 1.7rem; 
   transition: all .5s;
 }
 
-.features-item i:hover {
+.features-item i:hover,
+.services-item i:hover {
+  color: #46a926;
   transform: scale(1.2);
 }
 
 
-/* testimonials */
+/******************************************* testimonials *******************************************/
 
 .testimonials {
   height: 85vh;
