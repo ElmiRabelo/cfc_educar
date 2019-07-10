@@ -426,3 +426,23 @@ i {
   text-shadow: 0 0 .2rem rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
+
+/******************************************* footer *******************************************/
+#main-footer {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #020202;
+  color: #46a926;
+}
+
+#main-footer p {
+  letter-spacing: .2rem;
+}
+#main-footer a {
+  color: #f5f5f5;
+}
+#main-footer a:hover {
+  color: #284390;
+}
