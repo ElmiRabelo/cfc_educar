@@ -354,6 +354,7 @@ i {
 
 .testimonials .testimonial-item .testimonial-box:hover {
   background-color: #284490ce;
+  transition: all .3s ease;
 }
 
 .testimonials .testimonial-item .testimonial-box::after {
