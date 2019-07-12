@@ -67,6 +67,13 @@ i {
   margin-bottom: 1rem;
 }
 
+.lead {
+  font-size: 1.8rem;
+  color: #f5f5f5;
+  letter-spacing: .12rem;
+  margin-bottom: 3.2rem;
+}
+
 .btn {
   display: inline-block;
   font-size: 1.8rem;
@@ -156,32 +163,32 @@ i {
 
  /******************************************* NAVBAR *******************************************/
 
- .navbar {
-   background: #284390;
-   padding: 0 8%;
-  }
-  .navbar .container {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
+.navbar {
+  background: #284390;
+  padding: 0 8%;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .navbar ul {
-   list-style: none;
-   display: flex;
- }
+  list-style: none;
+  display: flex;
+}
 
 
 .navbar ul li a {
-   display: block;
-   color: #fff;
-   letter-spacing: .15rem;
-   padding: 2rem;
-   text-transform: uppercase;
- }
+  display: block;
+  color: #fff;
+  letter-spacing: .15rem;
+  padding: 2rem;
+  text-transform: uppercase;
+}
 .navbar ul li:hover {
-   background: #87a926;
- }
+  background: #87a926;
+}
 
  /******************************************* reponsive menu icon *******************************************/
 
@@ -221,7 +228,7 @@ i {
 .hero .container {
   height: 100%;
 }
-.hero .hero-content {
+.hero-content {
   padding: 0 1.2rem;
   width: 60%;
   height: 100%;
@@ -231,21 +238,15 @@ i {
   align-items: flex-start;
 }
 
-.hero .hero-content .lead {
-  font-size: 1.8rem;
-  color: #f5f5f5;
-  letter-spacing: .12rem;
-  margin-bottom: 3.2rem;
-}
 
-.hero .hero-content .price-title {
+.price-title {
   font-size: 1.9rem;
   color: #f6f6f6;
   letter-spacing: .16rem;
   font-weight: 700;
 }
 
-.hero .hero-content .price-value {
+.price-value {
   font-family: 'Montserrat', sans-serif;
   font-size: 5.5rem;
   color: #46a926;
@@ -339,7 +340,7 @@ i {
   display: flex;
   flex-direction: column;
 }
-.testimonials .testimonial-item .testimonial-box {
+.testimonial-item .testimonial-box {
   padding: 2rem;
   font-size: 1.6rem;
   color: #f4f4f4;
@@ -352,12 +353,12 @@ i {
   position: relative;
 }
 
-.testimonials .testimonial-item .testimonial-box:hover {
+.testimonial-item .testimonial-box:hover {
   background-color: #284490ce;
   transition: all .3s ease;
 }
 
-.testimonials .testimonial-item .testimonial-box::after {
+.testimonial-item .testimonial-box::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -368,7 +369,7 @@ i {
   border-top-color: #000;
 }
 
-.testimonials .testimonial-item .testimonial-author {
+.testimonial-item .testimonial-author {
   font-size: 1.8rem;
   letter-spacing: .15rem;
   color: #fff;
@@ -387,14 +388,14 @@ i {
   background-position: top;
 }
 
-.localization .localization-map {
+.localization-map {
   width: 50%;
   height: 100%;
   margin-right: 5rem;
   flex-shrink: 2;
 }
 
-.localization .localization-info {
+.localization-info {
   width: 50%;
   height: 100%;
   display: flex;
@@ -403,24 +404,24 @@ i {
   flex-wrap: wrap;
 }
 
-.localization .localization-info .localization-title {
+.localization-info .localization-title {
   font-size: 3.7rem;
   width: 100%;
 
 }
 
 
-.localization .localization-info .localization-item {
+.localization-info .localization-item {
   width: 40%;
   padding: 2rem 0;
   margin-right: 3rem;
 }
 
-.localization .localization-info .localization-item-full {
+.localization-info .localization-item-full {
   width: 100%;
   flex-grow: 2;
 }
-.localization .localization-info .localization-item p {
+.localization-info .localization-item p {
   font-size: 1.6rem;
   color: #f6f6f6;
   letter-spacing: .1rem;
