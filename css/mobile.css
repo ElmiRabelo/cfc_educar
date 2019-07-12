@@ -7,6 +7,12 @@
   font-size: 3.7rem;
 }
 
+.lead {
+  line-height: 1;
+  padding: 0 1rem;
+  text-align: center;
+}
+
 /************* topbar *************/
 .top-bar .office-hours {
   display: none;
@@ -54,23 +60,18 @@ body {
 
 /************* HERO *************/
 
-.hero .hero-content {
+.hero-content {
   width: 100%;
   align-items: center;
 }
 
-.hero .hero-content .hero-title {
+.hero-title {
   font-size: 4.8rem;
   text-align: center;
   padding: 0 1rem;
 }
 
-.hero .hero-content .lead {
-  line-height: 1;
-  padding: 0 1rem;
-  text-align: center;
-}
-.hero .hero-content .price-value {
+.price-value {
   font-size: 4.8rem;
 }
 
@@ -102,24 +103,24 @@ body {
   padding: 4rem 1rem;
 }
 
-.localization .localization-map {
+.localization-map {
   width: 100%;
   height: 30rem;
   margin: 2rem 0;
   order: 2;
 }
 
-.localization .localization-info {
+.localization-info {
   width: 100%;
   flex-direction: column;
   align-items: center;
   order: 1;
 }
-.localization .localization-info .localization-title {
+.localization-info .localization-title {
   font-size: 3rem;
   text-align: center;
 }
-.localization .localization-info .localization-item {
+.localization-info .localization-item {
   width: 100%;
   text-align: center;
 }
@@ -157,11 +158,11 @@ body {
 
   /************* HERO *************/
 
-  .hero .hero-content .hero-title {
+  .hero-title {
     font-size: 3.5rem;
   }
 
-  .hero .hero-content .price-value {
+  .price-value {
     font-size: 4rem;
   }
 
