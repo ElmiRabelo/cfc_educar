@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900|Roboto:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800,900|Roboto:400,700&display=swap");
 /* RESET AND INITIAL CONFIGURATION */
 *,
 *::after,
@@ -13,14 +13,19 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   font-size: 1.6rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: .8rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.8rem;
 }
 
 a {
@@ -43,10 +48,10 @@ i {
 .heading-primary {
   font-size: 6.2rem;
   font-weight: 900;
-  letter-spacing: .18rem;
+  letter-spacing: 0.18rem;
   line-height: 1.1;
   color: #fff;
-  text-shadow: .1rem 0 .5rem rgba(0, 0, 0, 0.4); 
+  text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 .heading-secondary {
@@ -55,13 +60,13 @@ i {
   text-align: center;
   margin-bottom: 1rem;
   color: #284390;
-  letter-spacing: .2rem;
-  text-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 .sub-heading {
   font-size: 2rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   color: #46a926;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -70,41 +75,49 @@ i {
 .lead {
   font-size: 1.8rem;
   color: #f5f5f5;
-  letter-spacing: .12rem;
+  letter-spacing: 0.12rem;
   margin-bottom: 3.2rem;
 }
 
 .btn {
   display: inline-block;
   font-size: 1.8rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: #fff;
   background: #284390;
   padding: 1.2rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   border: none;
   outline: none;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   cursor: pointer;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .btn:hover {
   background: #46a926;
   transform: translateY(-0.4rem);
-  box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.8);
 }
 
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 .1rem .7rem rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.8);
 }
 
+.to-top {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 2.5rem;
+  color: #46a926;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
 /******************************************* header *******************************************/
 .top-bar {
   min-height: 15rem;
-  background: linear-gradient(180deg, rgba(194,203,210, 0.33), #fff);
+  background: linear-gradient(180deg, rgba(194, 203, 210, 0.33), #fff);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -142,26 +155,28 @@ i {
   padding: 1rem;
   color: #87a926;
 }
-.top-bar .office-hours i { font-size: 3.6rem; }
+.top-bar .office-hours i {
+  font-size: 3.6rem;
+}
 
 .top-bar .contact-phone a {
   font-weight: bold;
   color: #1a1a19;
-  letter-spacing: .12rem;
+  letter-spacing: 0.12rem;
 }
 
 .top-bar .office-hours {
   display: flex;
   align-items: center;
 }
-.top-bar .office-hours span{ 
+.top-bar .office-hours span {
   display: block;
   color: #1a1a19;
-  letter-spacing: .12rem;
+  letter-spacing: 0.12rem;
   font-weight: bold;
- }
+}
 
- /******************************************* NAVBAR *******************************************/
+/******************************************* NAVBAR *******************************************/
 
 .navbar {
   background: #284390;
@@ -178,11 +193,10 @@ i {
   display: flex;
 }
 
-
 .navbar ul li a {
   display: block;
   color: #fff;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   padding: 2rem;
   text-transform: uppercase;
 }
@@ -190,7 +204,7 @@ i {
   background: #87a926;
 }
 
- /******************************************* reponsive menu icon *******************************************/
+/******************************************* reponsive menu icon *******************************************/
 
 .navbar .burguer {
   cursor: pointer;
@@ -199,28 +213,33 @@ i {
 }
 
 .navbar .burguer div {
-  height: .3rem;
+  height: 0.3rem;
   width: 2.5rem;
   background: #f4f4f4;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .navbar .social i {
-   font-size: 2.4rem;
-   color: #fff;
-   cursor: pointer;
- }
+  font-size: 2.4rem;
+  color: #fff;
+  cursor: pointer;
+}
 
 .navbar .social i:hover {
-   color: #87a926; 
- }
+  color: #87a926;
+}
 
- /******************************************* HERO *******************************************/
+/******************************************* HERO *******************************************/
 
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/hero-bg.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/hero-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,21 +257,20 @@ i {
   align-items: flex-start;
 }
 
-
 .price-title {
   font-size: 1.9rem;
   color: #f6f6f6;
-  letter-spacing: .16rem;
+  letter-spacing: 0.16rem;
   font-weight: 700;
 }
 
 .price-value {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 5.5rem;
   color: #46a926;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 800;
-  text-shadow: .1rem 0 .5rem rgba(0, 0, 0, 0.4); 
+  text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.4);
   margin: 0.6rem 0;
 }
 
@@ -291,17 +309,16 @@ i {
   margin: 0 1rem;
   font-size: 1.8rem;
   font-weight: bold;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-align: center;
 }
-
 
 .features-item i,
 .services-item i {
   display: block;
   font-size: 7rem;
-  padding-bottom: 1.7rem; 
-  transition: all .5s;
+  padding-bottom: 1.7rem;
+  transition: all 0.5s;
 }
 
 .features-item i:hover,
@@ -310,12 +327,16 @@ i {
   transform: scale(1.2);
 }
 
-
 /******************************************* testimonials *******************************************/
 
 .testimonials {
   height: 85vh;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/testimonials-bg.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/testimonials-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -344,10 +365,10 @@ i {
   padding: 2rem;
   font-size: 1.6rem;
   color: #f4f4f4;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   line-height: 1.4;
   background-color: #020202cc;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin: 2rem 1rem;
   text-align: center;
   position: relative;
@@ -355,7 +376,7 @@ i {
 
 .testimonial-item .testimonial-box:hover {
   background-color: #284490ce;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .testimonial-item .testimonial-box::after {
@@ -371,7 +392,7 @@ i {
 
 .testimonial-item .testimonial-author {
   font-size: 1.8rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   color: #fff;
   align-self: center;
 }
@@ -382,7 +403,12 @@ i {
   align-items: center;
   height: 100vh;
   padding: 4rem;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/testimonials-bg.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/testimonials-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -407,9 +433,7 @@ i {
 .localization-info .localization-title {
   font-size: 3.7rem;
   width: 100%;
-
 }
-
 
 .localization-info .localization-item {
   width: 40%;
@@ -424,8 +448,8 @@ i {
 .localization-info .localization-item p {
   font-size: 1.6rem;
   color: #f6f6f6;
-  letter-spacing: .1rem;
-  text-shadow: 0 0 .2rem rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
 
@@ -440,7 +464,7 @@ i {
 }
 
 #main-footer p {
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 #main-footer a {
   color: #f5f5f5;
