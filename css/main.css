@@ -110,9 +110,16 @@ i {
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  font-size: 2.5rem;
+  font-size: 5rem;
   color: #46a926;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.to-top:hover {
+  color: #284390;
+  transform: translateY(1px);
+  cursor: pointer;
 }
 /******************************************* header *******************************************/
 .top-bar {
